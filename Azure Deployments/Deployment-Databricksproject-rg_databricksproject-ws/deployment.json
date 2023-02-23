@@ -1,0 +1,53 @@
+{
+  "id": "/subscriptions/da58336e-2373-4c5e-91b0-3f1ca2294f6e/resourceGroups/Databricksproject-rg/providers/Microsoft.Resources/deployments/Databricksproject-rg_databricksproject-ws",
+  "name": "Databricksproject-rg_databricksproject-ws",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/da58336e-2373-4c5e-91b0-3f1ca2294f6e/resourceGroups/Databricksproject-rg/providers/Microsoft.Databricks/workspaces/databricksproject-ws",
+    "marketplaceItemId": "Microsoft.Databricks"
+  },
+  "properties": {
+    "templateHash": "4912342121823687366",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "workspaceName": {
+        "type": "String",
+        "value": "databricksproject-ws"
+      },
+      "tier": {
+        "type": "String",
+        "value": "trial"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2023-02-22T20:58:55.7975309Z",
+    "duration": "PT2.669619S",
+    "correlationId": "b14e7c27-7412-46e9-9708-ffc2487faf9f",
+    "providers": [
+      {
+        "namespace": "Microsoft.Databricks",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}
